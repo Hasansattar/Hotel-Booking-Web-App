@@ -1,0 +1,46 @@
+.navbar {
+  padding: 2em;
+  background-color: #020329;
+}
+
+.nav-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  color: white;
+  margin: 0;
+}
+
+.nav-buttons {
+  margin-left: auto;
+}
+
+.nav-btn {
+  align-self: flex-end;
+  padding: 1em 3em;
+  margin-left: 1rem;
+  color: var(--db);
+  background-color: var(--lg);
+}
+
+.user-name {
+  color: white;
+  margin: 0;
+}
+
+.signout-btn {
+  color: var(--db);
+}
+
+.ant-space-item svg {
+  color: white;
+}
+
+.ant-space, .ant-space * {
+  display: flex;
+  align-items: center;
+
+}

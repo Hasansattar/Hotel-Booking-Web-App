@@ -1,0 +1,47 @@
+.booking-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2em;
+  margin: 1rem auto;
+}
+
+.booking-image {
+  width: 40rem;
+  object-fit: contain;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.gallery {
+  display: flex;
+  gap: 1rem;
+}
+
+.gallery img {
+  width: 5rem;
+  aspect-ratio: 1;
+}
+
+.booknow-btn {
+  font-size: 1.4rem;
+  align-self: flex-start;
+  padding: 0.5em 1.75em !important;
+  margin: 0 !important;
+}
+
+.active-image {
+  border: 2px solid red;
+  transition: 0.5s ease border;
+}
+
+.description-container h2 {
+  font-size: 1.2rem;
+}
+
+.description-container p {
+  max-width:75ch;
+}

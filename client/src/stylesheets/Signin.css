@@ -1,0 +1,40 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  min-height: 80vh;
+  background-color: var(--lg);
+}
+
+.input-container h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.input-container * {
+  font-size: 1.2rem;
+}
+
+.input {
+  padding: 0.5em;
+  width: 20rem;
+}
+
+.signup-btn {
+  background-color: var(--db);
+  padding: 0.5em 2em;
+  border-radius: 0.3rem;
+  margin: 1rem;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  touch-action: none;
+}
+
+.error-label {
+  color: red;
+}
